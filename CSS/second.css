@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #464f54;
+}
+
+.container{
+    width: 1200px;
+    height: 898px;
+    margin: auto;
+    padding-top: 0.1px;
+}
+
+.bok{
+    background-color: #181818 ;
+    width: 876px;
+    height: 187px;
+    float: right;
+    margin-top: 47px;
+}
+
+.bokpod{
+    background-color: #f2b92b;
+    width: 812px;
+    height: 76px;
+    float: right;
+}
+
+.osnov{
+    background-color: #fff;
+    width: 1060px;
+    height: 749px;
+    margin: auto;
+    margin-top: 149px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.bokvnut{
+    margin-left: 60px;
+    line-height: 3;
+    margin-top: 33px;
+}
+
+.title{
+    font-family: ProximaNovaRegular, Arial, Helvetica, sans-serif;
+    color: #767676;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.like{
+    font-family: 'Playfair Display', serif, Arial, Helvetica, sans-serif;
+    color: #fefefe;
+    font-size: 48px;
+    border-right: 2px solid #afb1b3;
+    width: 351px;
+    line-height: 0.85;
+}
+
+hr {
+    border: 2px solid #303030;
+    background-color: #303030;
+    margin-top: 20px;
+}
+
+.bokpod .spis li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.osnovbord{
+    width: 870px;
+    margin-left: 56px;
+    padding-top: 202px;
+    border-left: 2px solid gray;
+    padding-left: 59px;
+}
+
+.roy{
+    font-family: ProximaNovaRegular, Arial, Helvetica, sans-serif;
+    color: #b4b4b4;
+    font-size: 19.84px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1{
+    font-family: futura-pt-heavy, Arial, Helvetica, sans-serif;
+    color: #2a2a2a;
+    font-size: 77.93px;
+    text-transform: uppercase;
+    margin: 52px 0 0 0;
+}
+
+.where{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: #8f8f8f;
+}
+
+.seen{
+    margin-top: 63px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26.92px;
+}
+
+.die{
+    font-style: italic;
+}
+
+.know{
+    margin-top: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26.92px;
+}
+
+@font-face{
+    font-family: "ProximaNovaRegular";
+    src: url(/Fonts/ProximaNovaRegular.ttf);
+}
+
+@font-face{
+    font-family: "futura-pt-heavy";
+    src: url(/Fonts/futura-pt-heavy.ttf);
+}
